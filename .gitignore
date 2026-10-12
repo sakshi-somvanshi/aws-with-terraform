@@ -1,0 +1,41 @@
+*.terraform
+./terraform 
+
+# ==========================================
+# Official Terraform .gitignore Template
+# ==========================================
+
+# Local .terraform directories (contains downloaded plugins, providers, and modules)
+**/.terraform/*
+
+# .tfstate files (contains sensitive system data and current infrastructure state)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files (likely to contain sensitive passwords, private keys, and secrets)
+*.tfvars
+*.tfvars.json
+
+# Ignore override files (used locally to temporarily modify resources)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore transient lock info files created during a 'terraform apply'
+.terraform.tfstate.lock.info
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Optional: Ignore plan files if you export plan outputs locally (e.g., terraform plan -out=tfplan)
+*tfplan*
+
+Day-01/.terraform.lock.hcl
+Day-02/.terraform.lock.hcl
+Day-01/LICENSE.txt
