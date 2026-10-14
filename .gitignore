@@ -17,7 +17,7 @@ crash.log
 crash.*.log
 
 # Exclude all .tfvars files (likely to contain sensitive passwords, private keys, and secrets)
-*.tfvars
+
 *.tfvars.json
 
 # Ignore override files (used locally to temporarily modify resources)
@@ -39,3 +39,6 @@ terraform.rc
 Day-01/.terraform.lock.hcl
 Day-02/.terraform.lock.hcl
 Day-01/LICENSE.txt
+Day-03/.terraform.lock.hcl
+C:\aws-with-terraform\workspaces\.terraform.lock.hcl
+C:\aws-with-terraform\workspaces\.terraform
