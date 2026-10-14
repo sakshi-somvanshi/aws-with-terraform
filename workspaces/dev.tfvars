@@ -1,0 +1,5 @@
+    ami_id = "ami-01a00762f46d584a1"
+    subnet_id = "subnet-072203e2b0d48672e"
+    instance_type = "t3.micro"
+    tags = "dev-env-workspace"
+    sg_tags = "dev-env-sg"
