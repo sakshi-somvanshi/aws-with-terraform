@@ -7,4 +7,4 @@ jobs:
   say-hello-inline-bash:
     runs-on: ubuntu-22.04
     steps:
-      - run: echo "hello stduents this first hello world linux github action"  m
+      - run: echo "hello stduents this first hello world linux github action" 
