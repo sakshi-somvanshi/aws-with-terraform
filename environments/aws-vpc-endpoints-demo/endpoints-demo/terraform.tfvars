@@ -1,0 +1,5 @@
+project_name     = "s3-endpoint-demo"
+environment      = "dev"
+bucket_name      = "sakshi-s3-endpoint-demo-48217"
+ssh_allowed_cidr = "122.167.115.233/32"
+instance_type    = "t3.micro"

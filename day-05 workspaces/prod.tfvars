@@ -1,0 +1,5 @@
+ami_id = "ami-01a00762f46d584a1"
+    subnet_id = "subnet-072203e2b0d48672e"
+    instance_type = "c7i-flex.large"
+    tags = "prod-env-workspace"
+    sg_tags = "prod-env-sg"
