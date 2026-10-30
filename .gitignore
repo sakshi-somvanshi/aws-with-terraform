@@ -1,4 +1,4 @@
-*.terraform
+git*.terraform
 ./terraform 
 
 # ==========================================
@@ -42,4 +42,7 @@ Day-01/LICENSE.txt
 Day-03/.terraform.lock.hcl
 C:\aws-with-terraform\workspaces\.terraform.lock.hcl
 C:\aws-with-terraform\workspaces\.terraform
+<<<<<<< HEAD
 custom-key
+=======
+>>>>>>> 0f818f44630ffbdbc7bc561cd221aac10cd22930
